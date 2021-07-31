@@ -27,6 +27,12 @@
 }
 
 
+.def:hover img{
+    
+    transform: scale(1.1) ;
+    transition: transform 2s ease-in-out;
+}
+
 .card button{
    display: none;
    position:absolute;
@@ -52,12 +58,21 @@
     text-align: left;
 }
 
+.download-part{
+    background: red;
+    margin-top: 100px;
+}
+
+
+
 .gallery_part{
     background-color: #212529!important;
     margin-top: 100px;
-    margin-bottom: 100px;
+    
 }
-
+.gallery{
+    padding-bottom: 50px;
+}
 .gallery{
     transform: skewY(-3deg);
 }
