@@ -76,3 +76,7 @@
 .gallery{
     transform: skewY(-3deg);
 }
+
+#contact{
+    margin-top: 80px;
+}
